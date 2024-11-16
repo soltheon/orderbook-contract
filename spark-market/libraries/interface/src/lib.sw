@@ -1,6 +1,7 @@
 library;
 
-use ::data_structures::{
+
+use data_structures::{
     account::Account,
     asset_type::AssetType,
     limit_type::LimitType,

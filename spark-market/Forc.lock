@@ -1,0 +1,31 @@
+[[package]]
+name = "core"
+source = "path+from-root-F64B6E1A883A7E7B"
+
+[[package]]
+name = "data_structures"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "errors"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "interface"
+source = "member"
+dependencies = [
+    "data_structures",
+    "std",
+]
+
+[[package]]
+name = "math"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?tag=v0.66.4#d7dd104dac4394aa7af56f05b720c975744db853"
+dependencies = ["core"]
