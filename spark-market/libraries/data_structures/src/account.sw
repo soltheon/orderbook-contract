@@ -1,7 +1,8 @@
 library;
 
-use ::errors::OrderError;
-use ::data_structures::{asset_type::AssetType, balance::Balance,};
+use errors::OrderError;
+use ::asset_type::AssetType;
+use ::balance::Balance;
 
 pub struct Account {
     // Available funds

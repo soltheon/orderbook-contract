@@ -1,9 +1,9 @@
 library;
 
-use ::data_structures::asset_type::AssetType;
-use ::data_structures::order_type::OrderType;
-use ::errors::{AssetError, OrderError};
-use ::math::{HUNDRED_PERCENT, max, min};
+use ::asset_type::AssetType;
+use ::order_type::OrderType;
+use errors::{AssetError, OrderError};
+use math::{HUNDRED_PERCENT, max, min};
 
 use std::hash::{Hash, sha256};
 use std::contract_id::ContractId;

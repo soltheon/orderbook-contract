@@ -1,7 +1,7 @@
 library;
 
-use ::data_structures::asset_type::AssetType;
-use ::errors::AccountError;
+use ::asset_type::AssetType;
+use errors::AccountError;
 
 pub struct Balance {
     pub base: u64,
