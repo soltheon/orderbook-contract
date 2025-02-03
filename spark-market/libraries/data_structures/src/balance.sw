@@ -1,7 +1,7 @@
 library;
 
 use ::asset_type::AssetType;
-use errors::AccountError;
+use spark_errors::AccountError;
 
 pub struct Balance {
     pub base: u64,

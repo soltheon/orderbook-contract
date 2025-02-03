@@ -2,8 +2,8 @@ library;
 
 use ::asset_type::AssetType;
 use ::order_type::OrderType;
-use errors::{AssetError, OrderError};
-use math::{HUNDRED_PERCENT, max, min};
+use spark_errors::{AssetError, OrderError};
+use spark_math::{HUNDRED_PERCENT, max, min};
 
 use std::hash::{Hash, sha256};
 use std::contract_id::ContractId;

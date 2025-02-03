@@ -1,2 +1,2 @@
 [workspace]
-members = ["spark-market", "spark-proxy", "spark-registry"]
+members = ["spark-proxy", "spark-registry"]

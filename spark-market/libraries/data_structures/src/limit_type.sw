@@ -2,6 +2,13 @@ library;
 
 use std::hash::{Hash, Hasher};
 
+/*
+- 'GTC' (Good-Til-Canceled): The order remains active until it is either fully filled or canceled.
+    ///      - 'IOC' (Immediate-Or-Cancel): The order can be partially filled immediately, and any unfilled portion is canceled.
+    ///      - 'FOK' (Fill-Or-Kill): The order must be fully filled immediately, or the entire transaction fails.
+    ///
+
+*/
 pub enum LimitType {
     GTC: (),
     IOC: (),

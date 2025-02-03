@@ -1,6 +1,6 @@
 library;
 
-use errors::OrderError;
+use spark_errors::OrderError;
 use ::asset_type::AssetType;
 use ::balance::Balance;
 

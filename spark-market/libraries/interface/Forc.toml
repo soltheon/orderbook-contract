@@ -2,7 +2,7 @@
 authors = ["anontheon"]
 entry = "lib.sw"
 license = "Apache-2.0"
-name = "interface"
+name = "spark_interface"
 
 [dependencies]
-data_structures = { path = "../data_structures/" }
+spark_data_structures = { path = "../data_structures/" }

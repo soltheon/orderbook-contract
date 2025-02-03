@@ -1,7 +1,7 @@
 library;
 
 
-use data_structures::{
+use spark_data_structures::{
     account::Account,
     asset_type::AssetType,
     limit_type::LimitType,

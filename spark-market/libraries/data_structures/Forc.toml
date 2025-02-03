@@ -2,8 +2,8 @@
 authors = ["anontheon"]
 entry = "lib.sw"
 license = "Apache-2.0"
-name = "data_structures"
+name = "spark_data_structures"
 
 [dependencies]
-math = { path = "../math/" }
-errors = { path = "../errors" }
+spark_math = { path = "../math/" }
+spark_errors = { path = "../errors" }

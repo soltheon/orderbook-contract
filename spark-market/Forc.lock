@@ -3,25 +3,29 @@ name = "core"
 source = "path+from-root-F64B6E1A883A7E7B"
 
 [[package]]
-name = "data_structures"
-source = "member"
-dependencies = ["std"]
-
-[[package]]
-name = "errors"
-source = "member"
-dependencies = ["std"]
-
-[[package]]
-name = "interface"
+name = "spark_data_structures"
 source = "member"
 dependencies = [
-    "data_structures",
+    "spark_errors",
+    "spark_math",
     "std",
 ]
 
 [[package]]
-name = "math"
+name = "spark_errors"
+source = "member"
+dependencies = ["std"]
+
+[[package]]
+name = "spark_interface"
+source = "member"
+dependencies = [
+    "spark_data_structures",
+    "std",
+]
+
+[[package]]
+name = "spark_math"
 source = "member"
 dependencies = ["std"]
 
